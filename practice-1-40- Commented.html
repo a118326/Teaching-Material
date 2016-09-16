@@ -1,0 +1,121 @@
+<html>
+  <head>
+    <title>Practice</title>
+    <link rel="stylesheet" type="text/css" href="css/styles_commented_to_40.css">
+  </head>
+  <body>
+    <h1>Why I love Taos, N.M.</h1>
+    <h2>The sun is strong and the people are weird.</h2>
+    <p>Taos is a small town in the mountains of northern New Mexico. It's cooler
+       than the southern part of the state, because it's 7,000 feet high. Many of the
+       residents are high, too. (But not me. I'm weird without any help.)</p>
+    
+    <!-- Ch 7 and 9 on classes and font weight -->
+    <p class = "important">Warning: We have no slow lorises here.</p>
+    
+    <!-- Ch 8 on classes not tiedd to an element -->
+    <h2 class = "typewriter">This heading is in typewriter text.</h2>
+    <p class = "Typewriter">This paragraph is also in typewriter text.</p>
+    
+    <!-- Ch 10 on font style -->
+    <h3 class="italics"> Multiple ways for italicizing and bolding. Note the reader difference.</h3>
+    <p><b>Please note:</b> You can <i>emphasize</i> this <em>better</em> on screen reader with <strong>Please note:</strong></p> 
+    
+    <!-- Ch 11 on font style - and span -->
+    <p>I like this course <span class = "emphasized">so much</span> I have to use italics.</p>
+    
+    <!-- Ch 12 on colors -->
+    <h3>This line is about using <span class="standout">color</span> <span class="stdout">anywhere</span></h3>
+    
+    <!-- Ch 13 on font style -->
+    <p> This paragraph is repeated below with readable class to change line height, <br>
+        letter spacing, and word spacing.</p>
+    <p class="readable"> This paragraph is repeated here with readable class to change line height, <br>
+        letter spacing, and word spacing.</p>
+    
+    <!-- Ch 14 on text alignment -->
+    <h3>Center Aligned Heading</h3>
+    <p class="neat">The American Automobile Association is a federation of motor clubs throughout 
+       North America. AAA is a non-profit member service organization; with 55.6 million members 
+       in the United States and Canada.The American Automobile Association is a federation of motor 
+       clubs throughout North America. AAA is a non-profit member service organization; 
+       with 55.6 million members in the United States and Canada.The American Automobile Association
+       is a federation of motor clubs throughout North America. AAA is a non-profit member service 
+       organization; with 55.6 million members in the United States and Canada.</p>
+    
+    <!-- Ch 15 on first line indent and blockquote -->
+    <p class="indent"><b>New EcoDiscovery Center!</b><br>
+       Bring the entire family for a day of exploration. Take a ride on the Everglades Airboat 
+       Adventure, enjoy the playful antics of river otters, experience hurricane force winds in 
+       the Storm Center, dig for fossils alongside a giant megalodon shark, and see exciting science 
+       theater shows.</p>
+    <blockquote><p><b>No visit is ever complete without experiencing an IMAX film adventure</b><br> on 
+       the five-story-high screen at AutoNation IMAX 3D Theater, <br>home of the BIGGEST screen in South 
+       Florida.</p></blockquote>
+    
+    <!-- Ch 16 on margins -->
+    <p class="offset"><b>New EcoDiscovery Center!</b><br>
+       Bring the entire family for a day of exploration. Take a ride on the Everglades Airboat 
+       Adventure, enjoy the playful antics of river otters, experience hurricane force winds in 
+       the Storm Center, dig for fossils alongside a giant megalodon shark, and see exciting science 
+       theater shows.</p>
+    <blockquote><p class="offset"><b>No visit is ever complete without experiencing an IMAX film adventure</b><br> on 
+       the five-story-high screen at AutoNation IMAX 3D Theater, <br>home of the BIGGEST screen in South 
+       Florida.</p></blockquote>
+    
+    <!-- Ch 17 on Borders -->
+    <h3 class="boxed"><b>New EcoDiscovery Center!</b></h3>
+    
+    <!-- Ch 18 on padding -->
+    <h3 class="boxed1"><b>New EcoDiscovery Center!</b></h3>
+    
+    <!-- Ch 20 on grouping -->
+    <h4>Fall 2016 Class of CEN4214</h4>
+    <p class="center">Students will use html, css, JavaScript, JQuery, and Node.js in 
+       developing mobile apps</p>
+    
+    <!-- Ch 21 on ID -->
+    <h2 id="orange">Hello, this heading is in orange!</h2>
+
+    <!-- Ch 22 on DIV -->
+    <div id="special">
+      <h2 id="orange">What is new at YouFit?</h2>
+      <p> Now you can participate in Miami Childrens Hospital 5K run right from 
+          your treadmill at any YouFit center!That means that you do not have to 
+          travel to Miami early in the morning and run in rain or under the hot sun.
+          You can still raise money and contribute to the welfare of children right
+          from YouFit. 
+      </p>
+    </div>
+
+    <!-- Ch 23 on Images -->
+    <!--  First arrayed next to each other -->
+    <h3>Department Chair and Co-Chairs</h3>
+    <img src = "images/erdol.jpg">
+    <img src = "images/zhuang.jpg">
+    <img src = "images/kalva.jpg">
+
+    <!-- Arrayed one below the other -->
+    <div><img src = "images/erdol.jpg"><br>Dr. Erdol</div>
+    <div><img src = "images/zhuang.jpg"><br>Dr.Zhuang</div>
+    <div><img src = "images/kalva.jpg"><br>Dr. Kalva</div>
+
+    <!-- ch. 24 to 26: Use of block to own its own line and alt, dimensions -->
+    <!-- See Page 34 Text book: Lingras -->
+    <figure>
+       <img class="owns" src = "images/erdol.jpg" alt="Chair" width="150" height="200">
+       <figcaption class="owns"><strong>Dr. Erdol, Chair</strong></figcaption>
+    </figure>
+    <figure>
+      <img src = "images/zhuang.jpg" alt="Assoc Chair" width="120" height="160">
+      <img src = "images/kalva.jpg" alt="Assoc Chair" width="120" height="160">
+      <figcaption><strong>Dr.Zhuang and Dr. Kalva, Associate Chairs</strong></figcaption>
+    </figure> 
+    
+    <!-- Ch. 27: Centered  -->
+    <figure>
+      <img class="centered" src = "images/Rio_Olympics.jpg" alt="Rio Olympics in Full Color" width="300" height="250">
+      <figcaption><center><strong>Rio Olympics 2016</strong></center></figcaption>
+    </figure>
+</body>
+</html>

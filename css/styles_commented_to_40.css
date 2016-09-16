@@ -1,0 +1,105 @@
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+h1 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+} 
+
+/* Chapter 7 and 9: CSS classes and Font Weight */
+p.important {
+  font-size:  1.5em;
+  font-weight: 900;
+}
+
+/* Chapter 8: classes not tied to an element */
+.typewriter {
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* Chapter 10: Font style */
+.italics {
+  font-style: italic;
+}
+
+/* Chapter 11: Font style - em */
+.emphasized {
+  font-style: italic;
+}
+
+/* Chapter 12: colors */
+.standout {
+  color: red;
+}
+.stdout {
+  color: #cc00cc;
+}
+
+/* Chapter 13: Spacing */
+p.readable {
+  line-height: 2.5em;
+  letter-spacing: .2em;
+  word-spacing: 2em;
+}
+
+/* Chapter 14: text alginment */
+h3 {
+  text-align: center;
+}
+p.neat {
+  text-align: justify;
+}
+
+/* Chapter 15: First line indent and blockquote */
+p.indent {
+  text-indent: 1em;
+}
+blockquote {
+  font-size: .75em;
+  color: gray;
+  text-align: center;
+}
+
+/* Chapter 16: Margins */
+p.offset {
+  margin: 2em 2em 2em 2em;
+}
+
+/* Chapter 17: Borders */
+.boxed {
+  border: 5px double blue;
+}
+
+/* Chapter 18: Padding */
+.boxed1 {
+  border: 5px double blue;
+  padding: 2em;
+}
+
+/* Chapter 20: Grouping*/
+h4, p.center {
+  text-align: center;
+}
+
+/* Chapter 21: ID with # */
+h2#orange {
+  color: orange;
+}
+
+/* Chapter 22: DIV */
+div#special {
+  margin: 0 2em 0 2em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Chapter 23 to 26: Images */
+.owns {
+  display: block;
+  margin-left: 5em;
+}
+
+/* Chapter 27: Image centered */
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
